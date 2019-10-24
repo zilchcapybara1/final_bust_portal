@@ -1,0 +1,7 @@
+.jumbotron {
+	background-image: url("/coconut_bg.jpg");
+}
+.coconut-tree {
+	background-image: url("/coconut_tree.png");
+	background-size: 5%;
+}

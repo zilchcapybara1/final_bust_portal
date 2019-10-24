@@ -1,0 +1,7 @@
+<%= render "shared/jumbotron", header: "Flight Information", tag_line: "..." %>
+
+<%= bar_chart @chart_data %>
+
+<%= render "list_flight", flights: @open_flights, header: "Open Flights" %>
+
+<%= render "list_flight", flights: @closed_flights, header: "Closed Flights" %>

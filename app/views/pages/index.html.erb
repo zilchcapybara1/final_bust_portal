@@ -1,0 +1,13 @@
+<%= render "shared/jumbotron", header: "Coconut Airways", tag_line: "masaya dito..." %>
+
+<div class="row text-center">
+  <div class="col-lg-4">
+      <%= render "shared/card", image: "available_flight.jpg", title: "Want to reserve a flight?", body: "Our company is the leading provider of quality air transporation in the Philippines.", btn_text: "Check Flights" ,link_text: "/flights"%>
+  </div>
+  <div class="col-lg-4">
+    <%= render "shared/card", image: "register.jpg", title: "Create an Account with Us!", body: "We offer travel perks and bonus points to all our valued customers.", btn_text: "Register for Free" , link_text: "/users/new"%>
+  </div>
+  <div class="col-lg-4">
+    <%= render "shared/card", image: "about_us.jpg", title: "Curious About Us?", body: "We are a small company with big hearts and a thirst for travel.", btn_text: "Learn About Coconut Airways" , link_text: "#"%>
+  </div>
+</div>
